@@ -326,7 +326,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 0.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = net.zhaojian.openwithpanel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -346,7 +346,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 0.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = net.zhaojian.openwithpanel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -359,7 +359,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Apps/Helper/Info.plist;
 				INFOPLIST_KEY_LSUIElement = YES;
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 0.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = net.zhaojian.openwithpanel.helper;
 				PRODUCT_NAME = "OpenWithPanel Helper";
 				SKIP_INSTALL = YES;
@@ -373,7 +373,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Apps/Helper/Info.plist;
 				INFOPLIST_KEY_LSUIElement = YES;
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 0.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = net.zhaojian.openwithpanel.helper;
 				PRODUCT_NAME = "OpenWithPanel Helper";
 				SKIP_INSTALL = YES;
