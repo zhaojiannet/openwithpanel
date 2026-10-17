@@ -88,7 +88,7 @@ Requer macOS 26 Tahoe ou posterior.
 
 Não há instalador e não é preciso senha de administrador.
 
-**Atualizar:** baixe o novo DMG e arraste o OpenWithPanel para Aplicativos de novo, substituindo a cópia antiga. Seus ajustes, regras e instantâneos são mantidos.
+**Atualizar:** baixe o novo DMG e arraste o OpenWithPanel para Aplicativos de novo, substituindo a cópia antiga. Seus ajustes, regras e instantâneos são mantidos. Para saber se saiu uma versão mais nova, escolha **OpenWithPanel › Verificar atualizações…**.
 
 **Desinstalar:** veja [Desinstalação](#desinstalação).
 
@@ -239,7 +239,7 @@ Lista cada lugar que o OpenWithPanel altera ou em que grava no seu Mac, cada um 
 - **Regras e instantâneos:** `~/Library/Application Support/net.zhaojian.openwithpanel/`;
 - **Ajustes “Abrir Com” por arquivo:** só existem se você usou regras de pasta.
 
-O OpenWithPanel não roda em segundo plano, não tem item de início de sessão, não faz conexões de rede e não coleta dados.
+O OpenWithPanel não roda em segundo plano, não tem item de início de sessão e não coleta dados. Ele só se conecta à internet quando você escolhe **Verificar atualizações…**, para ler o número da versão mais recente no GitHub.
 
 ### Desinstalação
 
@@ -302,7 +302,7 @@ Escolha o editor para o grupo **Código**, ou para formatos individuais, e press
 Sim. O OpenWithPanel registra as associações originais na primeira vez que é executado e nunca sobrescreve esse registro. **Restaurar o estado inicial** aponta cada tipo alterado de volta para o app original.
 
 **O OpenWithPanel coleta dados ou roda em segundo plano?**
-Não. Ele não faz conexões de rede, não coleta dados, não instala agentes em segundo plano e não continua em execução depois que você o encerra. **Ajustes › O que o OpenWithPanel gravou** lista cada lugar em que ele grava.
+Não. Ele não coleta dados, só se conecta à internet quando você escolhe **Verificar atualizações…**, não instala agentes em segundo plano e não continua em execução depois que você o encerra. **Ajustes › O que o OpenWithPanel gravou** lista cada lugar em que ele grava.
 
 **Por que o OpenWithPanel não usa sandbox?**
 O macOS não permite que apps em sandbox alterem os apps padrão. Em vez disso, o OpenWithPanel usa o hardened runtime.

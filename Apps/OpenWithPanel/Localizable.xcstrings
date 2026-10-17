@@ -3615,6 +3615,94 @@
         }
       }
     },
+    "Check for Updates…" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التحقق من وجود تحديثات…"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nach Updates suchen …"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscar actualizaciones…"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher les mises à jour…"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "अपडेट के लिए जाँचें…"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Periksa Pembaruan…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデートを確認…"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "업데이트 확인…"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verificar atualizações…"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проверить обновления…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตรวจหาอัปเดต…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kiểm tra bản cập nhật…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "检查更新…"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "檢查更新項目…"
+          }
+        }
+      }
+    },
     "Choose the app that opens each kind of file" : {
       "localizations" : {
         "ar" : {
@@ -4583,6 +4671,94 @@
         }
       }
     },
+    "Couldn’t check for updates" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعذّر التحقق من وجود تحديثات"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suche nach Updates fehlgeschlagen"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se han podido buscar actualizaciones"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossible de rechercher les mises à jour"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "अपडेट की जाँच नहीं हो सकी"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak dapat memeriksa pembaruan"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデートを確認できませんでした"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "업데이트를 확인할 수 없습니다"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Não foi possível verificar atualizações"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось проверить обновления"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่สามารถตรวจหาอัปเดตได้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không thể kiểm tra bản cập nhật"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法检查更新"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無法檢查更新項目"
+          }
+        }
+      }
+    },
     "Custom" : {
       "localizations" : {
         "ar" : {
@@ -4931,185 +5107,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "宣告的類型 · 角色 · 優先順序，取自各 App 的 Info.plist 原文。"
-          }
-        }
-      }
-    },
-    "OpenWithPanel" : {
-      "shouldTranslate" : false
-    },
-    "OpenWithPanel sends files like this to %@." : {
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "يرسل OpenWithPanel الملفات من هذا النوع إلى %@."
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OpenWithPanel gibt solche Dateien an %@ weiter."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OpenWithPanel envía los archivos de este tipo a %@."
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OpenWithPanel envoie les fichiers de ce genre à %@."
-          }
-        },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OpenWithPanel ऐसी फ़ाइलें %@ को भेजता है।"
-          }
-        },
-        "id" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OpenWithPanel mengirim file seperti ini ke %@."
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OpenWithPanel はこの種類のファイルを %@ に渡します。"
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OpenWithPanel은 이런 파일을 %@(으)로 보냅니다."
-          }
-        },
-        "pt" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "O OpenWithPanel envia arquivos assim para %@."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OpenWithPanel отправляет такие файлы в %@."
-          }
-        },
-        "th" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OpenWithPanel ส่งไฟล์แบบนี้ไปที่ %@"
-          }
-        },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OpenWithPanel gửi các tệp như thế này tới %@."
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OpenWithPanel 把这类文件交给 %@。"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OpenWithPanel 把這類檔案交給 %@。"
-          }
-        }
-      }
-    },
-    "OpenWithPanel writes nothing else: no background process, no login item, no network access." : {
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "لا يكتب OpenWithPanel أي شيء آخر: لا عمليات في الخلفية، ولا عناصر تسجيل دخول، ولا اتصال بالشبكة."
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sonst schreibt OpenWithPanel nichts: kein Hintergrundprozess, kein Anmeldeobjekt, kein Netzwerkzugriff."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OpenWithPanel no escribe nada más: ningún proceso en segundo plano, ningún ítem de inicio de sesión, ningún acceso a la red."
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OpenWithPanel n’écrit rien d’autre : aucun processus en arrière-plan, aucun élément de connexion, aucun accès réseau."
-          }
-        },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "इसके अलावा OpenWithPanel कुछ नहीं लिखता: कोई बैकग्राउंड प्रोसेस नहीं, कोई लॉगिन आइटम नहीं, कोई नेटवर्क एक्सेस नहीं।"
-          }
-        },
-        "id" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OpenWithPanel tidak menulis apa pun selain itu: tanpa proses latar belakang, tanpa item login, tanpa akses jaringan."
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OpenWithPanel はこれ以外に何も書き込みません。バックグラウンドプロセス、ログイン項目、ネットワーク通信はありません。"
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OpenWithPanel은 그 밖에는 아무것도 기록하지 않습니다. 백그라운드 프로세스, 로그인 항목, 네트워크 접속이 없습니다."
-          }
-        },
-        "pt" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "O OpenWithPanel não grava mais nada: nenhum processo em segundo plano, nenhum item de início de sessão, nenhum acesso à rede."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Больше OpenWithPanel ничего не записывает: ни фоновых процессов, ни объектов входа, ни доступа к сети."
-          }
-        },
-        "th" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OpenWithPanel ไม่เขียนอะไรอื่นอีก: ไม่มีกระบวนการเบื้องหลัง ไม่มีรายการเข้าสู่ระบบ ไม่เชื่อมต่อเครือข่าย"
-          }
-        },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OpenWithPanel không ghi thêm gì khác: không có tiến trình nền, không có mục đăng nhập, không truy cập mạng."
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "除此之外 OpenWithPanel 不写任何东西：没有后台进程，没有登录项，不联网。"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "除此之外 OpenWithPanel 不寫入任何東西：沒有背景程序，沒有登入項目，不連網。"
           }
         }
       }
@@ -5817,6 +5814,94 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "不打開網頁連結"
+          }
+        }
+      }
+    },
+    "Download" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تنزيل"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herunterladen"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descargar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Télécharger"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "डाउनलोड करें"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unduh"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ダウンロード"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "다운로드"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baixar"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Загрузить"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดาวน์โหลด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tải về"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下载"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下載"
           }
         }
       }
@@ -8021,6 +8106,94 @@
         }
       }
     },
+    "GitHub didn’t respond as expected (status %lld). Try again later." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم يستجب GitHub كما هو متوقع (الحالة %lld). حاول مرة أخرى لاحقًا."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub hat nicht wie erwartet geantwortet (Status %lld). Versuche es später erneut."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub no respondió como se esperaba (estado %lld). Inténtalo de nuevo más tarde."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub n’a pas répondu comme prévu (statut %lld). Réessayez plus tard."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub ने अपेक्षित जवाब नहीं दिया (स्थिति %lld)। बाद में फिर कोशिश करें।"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub tidak merespons seperti yang diharapkan (status %lld). Coba lagi nanti."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub から想定どおりの応答がありませんでした（ステータス %lld）。しばらくしてからもう一度お試しください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub에서 예상한 응답을 받지 못했습니다(상태 %lld). 나중에 다시 시도하세요."
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O GitHub não respondeu como esperado (status %lld). Tente novamente mais tarde."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub ответил не так, как ожидалось (статус %lld). Повторите попытку позже."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub ไม่ได้ตอบกลับตามที่คาดไว้ (สถานะ %lld) โปรดลองอีกครั้งในภายหลัง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub không phản hồi như mong đợi (trạng thái %lld). Hãy thử lại sau."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub 没有正常响应（状态码 %lld），请稍后再试。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub 沒有正常回應（狀態碼 %lld），請稍後再試。"
+          }
+        }
+      }
+    },
     "Group" : {
       "localizations" : {
         "ar" : {
@@ -9076,6 +9249,94 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "上次執行：已設定 %1$lld 個，跳過二進位 %2$lld 個，保留你的設定 %3$lld 個"
+          }
+        }
+      }
+    },
+    "Later" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لاحقًا"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Später"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Más tarde"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plus tard"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "बाद में"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nanti"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あとで"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "나중에"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mais tarde"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Позже"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภายหลัง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Để sau"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "以后再说"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "稍後"
           }
         }
       }
@@ -10227,6 +10488,361 @@
         }
       }
     },
+    "OpenWithPanel" : {
+      "shouldTranslate" : false
+    },
+    "OpenWithPanel %@ is available" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يتوفر OpenWithPanel %@"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel %@ ist verfügbar"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel %@ ya está disponible"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel %@ est disponible"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel %@ उपलब्ध है"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel %@ sudah tersedia"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel %@ が利用可能です"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel %@ 버전을 사용할 수 있습니다"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O OpenWithPanel %@ está disponível"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Доступна версия OpenWithPanel %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel %@ พร้อมให้ใช้งานแล้ว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã có OpenWithPanel %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel %@ 已发布"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel %@ 已推出"
+          }
+        }
+      }
+    },
+    "OpenWithPanel is up to date" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel محدَّث"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel ist auf dem neuesten Stand"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel está actualizado"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel est à jour"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel अप टू डेट है"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel sudah versi terbaru"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel は最新です"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel이 최신 버전입니다"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O OpenWithPanel está atualizado"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "У вас последняя версия OpenWithPanel"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel เป็นเวอร์ชันล่าสุดแล้ว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel đã là phiên bản mới nhất"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel 已是最新版本"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel 已是最新版本"
+          }
+        }
+      }
+    },
+    "OpenWithPanel sends files like this to %@." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يرسل OpenWithPanel الملفات من هذا النوع إلى %@."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel gibt solche Dateien an %@ weiter."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel envía los archivos de este tipo a %@."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel envoie les fichiers de ce genre à %@."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel ऐसी फ़ाइलें %@ को भेजता है।"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel mengirim file seperti ini ke %@."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel はこの種類のファイルを %@ に渡します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel은 이런 파일을 %@(으)로 보냅니다."
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O OpenWithPanel envia arquivos assim para %@."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel отправляет такие файлы в %@."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel ส่งไฟล์แบบนี้ไปที่ %@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel gửi các tệp như thế này tới %@."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel 把这类文件交给 %@。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel 把這類檔案交給 %@。"
+          }
+        }
+      }
+    },
+    "OpenWithPanel writes nothing else: no background process, no login item. It connects to the internet only when you choose Check for Updates." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا يكتب OpenWithPanel أي شيء آخر: لا عمليات في الخلفية، ولا عناصر تسجيل دخول. ولا يتصل بالإنترنت إلا عند اختيار «التحقق من وجود تحديثات»."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonst schreibt OpenWithPanel nichts: kein Hintergrundprozess, kein Anmeldeobjekt. Mit dem Internet verbindet es sich nur, wenn du „Nach Updates suchen“ wählst."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel no escribe nada más: ningún proceso en segundo plano, ningún ítem de inicio de sesión. Solo se conecta a internet cuando eliges «Buscar actualizaciones»."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel n’écrit rien d’autre : aucun processus en arrière-plan, aucun élément de connexion. Il ne se connecte à Internet que lorsque vous choisissez « Rechercher les mises à jour »."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "इसके अलावा OpenWithPanel कुछ नहीं लिखता: कोई बैकग्राउंड प्रोसेस नहीं, कोई लॉगिन आइटम नहीं। यह इंटरनेट से तभी जुड़ता है जब आप “अपडेट के लिए जाँचें” चुनते हैं।"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel tidak menulis apa pun selain itu: tanpa proses latar belakang, tanpa item login. OpenWithPanel hanya terhubung ke internet saat Anda memilih “Periksa Pembaruan”."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel はこれ以外に何も書き込みません。バックグラウンドプロセスやログイン項目はありません。インターネットに接続するのは「アップデートを確認」を選んだときだけです。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel은 그 밖에는 아무것도 기록하지 않습니다. 백그라운드 프로세스나 로그인 항목이 없으며, ‘업데이트 확인’을 선택할 때만 인터넷에 연결합니다."
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O OpenWithPanel não grava mais nada: nenhum processo em segundo plano, nenhum item de início de sessão. Ele só se conecta à internet quando você escolhe “Verificar atualizações”."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Больше OpenWithPanel ничего не записывает: ни фоновых процессов, ни объектов входа. В интернет он выходит, только когда вы выбираете «Проверить обновления»."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel ไม่เขียนอะไรอื่นอีก: ไม่มีกระบวนการเบื้องหลัง ไม่มีรายการเข้าสู่ระบบ และจะเชื่อมต่ออินเทอร์เน็ตเฉพาะเมื่อคุณเลือก “ตรวจหาอัปเดต” เท่านั้น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel không ghi thêm gì khác: không có tiến trình nền, không có mục đăng nhập. Ứng dụng chỉ kết nối Internet khi bạn chọn “Kiểm tra bản cập nhật”."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "除此之外 OpenWithPanel 不写任何东西：没有后台进程，没有登录项。只有在你选择“检查更新”时才会联网。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "除此之外 OpenWithPanel 不寫入任何東西：沒有背景程序，沒有登入項目。只有在你選擇「檢查更新項目」時才會連網。"
+          }
+        }
+      }
+    },
     "Opens with" : {
       "localizations" : {
         "ar" : {
@@ -11110,94 +11726,6 @@
         }
       }
     },
-    "Relaunch OpenWithPanel to use the new language." : {
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "أعد فتح OpenWithPanel لاستخدام اللغة الجديدة."
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Starte OpenWithPanel neu, um die neue Sprache zu verwenden."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Vuelve a abrir OpenWithPanel para usar el nuevo idioma."
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Relancez OpenWithPanel pour utiliser la nouvelle langue."
-          }
-        },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "नई भाषा इस्तेमाल करने के लिए OpenWithPanel दोबारा खोलें।"
-          }
-        },
-        "id" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Buka ulang OpenWithPanel untuk memakai bahasa baru."
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OpenWithPanel を再起動すると新しい言語で表示されます。"
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OpenWithPanel을 다시 실행하면 새 언어가 적용됩니다."
-          }
-        },
-        "pt" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reabra o OpenWithPanel para usar o novo idioma."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Перезапустите OpenWithPanel, чтобы включить новый язык."
-          }
-        },
-        "th" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "เปิด OpenWithPanel ใหม่เพื่อใช้ภาษาใหม่"
-          }
-        },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mở lại OpenWithPanel để dùng ngôn ngữ mới."
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "重新打开 OpenWithPanel 后使用新语言。"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "重新開啟 OpenWithPanel 後使用新語言。"
-          }
-        }
-      }
-    },
     "Relaunch Now" : {
       "localizations" : {
         "ar" : {
@@ -11282,6 +11810,94 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "立即重新開啟"
+          }
+        }
+      }
+    },
+    "Relaunch OpenWithPanel to use the new language." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أعد فتح OpenWithPanel لاستخدام اللغة الجديدة."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starte OpenWithPanel neu, um die neue Sprache zu verwenden."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vuelve a abrir OpenWithPanel para usar el nuevo idioma."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Relancez OpenWithPanel pour utiliser la nouvelle langue."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "नई भाषा इस्तेमाल करने के लिए OpenWithPanel दोबारा खोलें।"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buka ulang OpenWithPanel untuk memakai bahasa baru."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel を再起動すると新しい言語で表示されます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenWithPanel을 다시 실행하면 새 언어가 적용됩니다."
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reabra o OpenWithPanel para usar o novo idioma."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перезапустите OpenWithPanel, чтобы включить новый язык."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปิด OpenWithPanel ใหม่เพื่อใช้ภาษาใหม่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mở lại OpenWithPanel để dùng ngôn ngữ mới."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重新打开 OpenWithPanel 后使用新语言。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重新開啟 OpenWithPanel 後使用新語言。"
           }
         }
       }
@@ -16216,6 +16832,94 @@
         }
       }
     },
+    "Version %@ is the latest version." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الإصدار %@ هو أحدث إصدار."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version %@ ist die neueste Version."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La versión %@ es la más reciente."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La version %@ est la plus récente."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "संस्करण %@ नवीनतम संस्करण है।"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versi %@ adalah versi terbaru."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バージョン %@ が最新です。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 버전이 최신 버전입니다."
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A versão %@ é a mais recente."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Версия %@ — последняя."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เวอร์ชัน %@ เป็นเวอร์ชันล่าสุด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiên bản %@ là phiên bản mới nhất."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "版本 %@ 是最新版本。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "版本 %@ 是最新版本。"
+          }
+        }
+      }
+    },
     "Video" : {
       "localizations" : {
         "ar" : {
@@ -16740,6 +17444,94 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "這是你為這類檔案選擇的 App。"
+          }
+        }
+      }
+    },
+    "You have version %@." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لديك الإصدار %@."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du hast Version %@."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tienes la versión %@."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous avez la version %@."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "आपके पास संस्करण %@ है।"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versi Anda %@."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在のバージョンは %@ です。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "현재 버전은 %@입니다."
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Você tem a versão %@."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "У вас версия %@."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณใช้เวอร์ชัน %@ อยู่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn đang dùng phiên bản %@."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你当前的版本是 %@。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你目前的版本是 %@。"
           }
         }
       }

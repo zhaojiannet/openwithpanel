@@ -88,7 +88,7 @@ Yêu cầu macOS 26 Tahoe trở lên.
 
 Không có trình cài đặt và không cần mật khẩu quản trị viên.
 
-**Cập nhật:** tải DMG mới và kéo OpenWithPanel vào thư mục Ứng dụng lần nữa, thay thế bản cũ. Cài đặt, quy tắc và ảnh chụp của bạn được giữ nguyên.
+**Cập nhật:** tải DMG mới và kéo OpenWithPanel vào thư mục Ứng dụng lần nữa, thay thế bản cũ. Cài đặt, quy tắc và ảnh chụp của bạn được giữ nguyên. Để xem đã có phiên bản mới hơn chưa, hãy chọn **OpenWithPanel › Kiểm tra bản cập nhật…**.
 
 **Gỡ cài đặt:** xem [Gỡ cài đặt](#gỡ-cài-đặt).
 
@@ -239,7 +239,7 @@ Liệt kê mọi nơi OpenWithPanel thay đổi hoặc ghi trên máy Mac của 
 - **Quy tắc và ảnh chụp:** `~/Library/Application Support/net.zhaojian.openwithpanel/`;
 - **Cài đặt “Mở bằng” cho từng tệp:** chỉ có nếu bạn đã dùng quy tắc thư mục.
 
-OpenWithPanel không chạy nền, không có mục đăng nhập, không kết nối mạng và không thu thập dữ liệu.
+OpenWithPanel không chạy nền, không có mục đăng nhập và không thu thập dữ liệu. Ứng dụng chỉ kết nối Internet khi bạn chọn **Kiểm tra bản cập nhật…**, để đọc số phiên bản mới nhất từ GitHub.
 
 ### Gỡ cài đặt
 
@@ -302,7 +302,7 @@ Chọn trình soạn thảo cho nhóm **Mã nguồn**, hoặc cho từng định
 Có. OpenWithPanel ghi lại các liên kết ban đầu ngay lần chạy đầu tiên và không bao giờ ghi đè bản ghi đó. **Khôi phục ban đầu** trỏ mọi loại đã thay đổi về ứng dụng ban đầu của nó.
 
 **OpenWithPanel có thu thập dữ liệu hoặc chạy nền không?**
-Không. Ứng dụng không kết nối mạng, không thu thập dữ liệu, không cài tác tử nền và không tiếp tục chạy sau khi bạn thoát. **Cài đặt › Những gì OpenWithPanel đã ghi** liệt kê mọi nơi nó ghi vào.
+Không. Ứng dụng không thu thập dữ liệu, chỉ kết nối Internet khi bạn chọn **Kiểm tra bản cập nhật…**, không cài tác tử nền và không tiếp tục chạy sau khi bạn thoát. **Cài đặt › Những gì OpenWithPanel đã ghi** liệt kê mọi nơi nó ghi vào.
 
 **Vì sao OpenWithPanel không chạy trong sandbox?**
 macOS không cho phép ứng dụng chạy trong sandbox thay đổi ứng dụng mặc định. Thay vào đó, OpenWithPanel dùng hardened runtime.

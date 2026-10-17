@@ -88,7 +88,7 @@ Memerlukan macOS 26 Tahoe atau lebih baru.
 
 Tidak ada penginstal dan tidak perlu kata sandi administrator.
 
-**Memperbarui:** unduh DMG baru dan seret OpenWithPanel ke Aplikasi lagi, menggantikan salinan lama. Pengaturan, aturan, dan snapshot Anda tetap tersimpan.
+**Memperbarui:** unduh DMG baru dan seret OpenWithPanel ke Aplikasi lagi, menggantikan salinan lama. Pengaturan, aturan, dan snapshot Anda tetap tersimpan. Untuk melihat apakah ada versi yang lebih baru, pilih **OpenWithPanel › Periksa Pembaruan…**.
 
 **Mencopot:** lihat [Pencopotan](#pencopotan).
 
@@ -239,7 +239,7 @@ Menampilkan setiap tempat yang diubah atau ditulisi OpenWithPanel di Mac Anda, m
 - **Aturan dan snapshot:** `~/Library/Application Support/net.zhaojian.openwithpanel/`;
 - **Pengaturan “Buka Dengan” per file:** hanya ada jika Anda menggunakan aturan folder.
 
-OpenWithPanel tidak berjalan di latar belakang, tidak memiliki item login, tidak membuat koneksi jaringan, dan tidak mengumpulkan data.
+OpenWithPanel tidak berjalan di latar belakang, tidak memiliki item login, dan tidak mengumpulkan data. OpenWithPanel hanya terhubung ke internet saat Anda memilih **Periksa Pembaruan…**, untuk membaca nomor versi terbaru dari GitHub.
 
 ### Pencopotan
 
@@ -302,7 +302,7 @@ Pilih editor untuk grup **Kode**, atau untuk format satu per satu, lalu tekan **
 Bisa. OpenWithPanel mencatat asosiasi asli saat pertama kali dijalankan dan tidak pernah menimpa catatan itu. **Pulihkan ke Awal** mengarahkan kembali setiap jenis yang diubah ke aplikasi aslinya.
 
 **Apakah OpenWithPanel mengumpulkan data atau berjalan di latar belakang?**
-Tidak. OpenWithPanel tidak membuat koneksi jaringan, tidak mengumpulkan data, tidak memasang agen latar belakang, dan tidak terus berjalan setelah Anda keluar. **Pengaturan › Yang Ditulis OpenWithPanel** menampilkan setiap tempat yang ditulisinya.
+Tidak. OpenWithPanel tidak mengumpulkan data, hanya terhubung ke internet saat Anda memilih **Periksa Pembaruan…**, tidak memasang agen latar belakang, dan tidak terus berjalan setelah Anda keluar. **Pengaturan › Yang Ditulis OpenWithPanel** menampilkan setiap tempat yang ditulisinya.
 
 **Mengapa OpenWithPanel tidak memakai sandbox?**
 macOS tidak mengizinkan aplikasi dalam sandbox mengubah aplikasi default. Sebagai gantinya, OpenWithPanel menggunakan hardened runtime.

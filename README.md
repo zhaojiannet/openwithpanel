@@ -88,7 +88,7 @@ Requires macOS 26 Tahoe or later.
 
 There is no installer and no administrator password is needed.
 
-**Updating:** download the new DMG and drag OpenWithPanel into Applications again, replacing the old copy. Your settings, rules and snapshots are kept.
+**Updating:** download the new DMG and drag OpenWithPanel into Applications again, replacing the old copy. Your settings, rules and snapshots are kept. To see whether a newer version is out, choose **OpenWithPanel › Check for Updates…**.
 
 **Uninstalling:** see [Uninstall](#uninstall).
 
@@ -239,7 +239,7 @@ Lists every place OpenWithPanel changes or writes on your Mac, each with **Show 
 - **Rules and snapshots:** `~/Library/Application Support/net.zhaojian.openwithpanel/`;
 - **Per-file "Open with" settings:** only present if you used folder rules.
 
-OpenWithPanel doesn't run in the background, has no login item, makes no network connections and collects no data.
+OpenWithPanel doesn't run in the background, has no login item and collects no data. It connects to the internet only when you choose **Check for Updates…**, to read the latest version number from GitHub.
 
 ### Uninstall
 
@@ -302,7 +302,7 @@ Choose the editor for the **Code** group, or for individual formats, and press *
 Yes. OpenWithPanel records the original associations the first time it runs and never overwrites that record. **Restore Initial** points every changed type back to its original app.
 
 **Does OpenWithPanel collect data or run in the background?**
-No. It makes no network connections, collects no data, installs no background agents and doesn't stay running after you quit. **Settings › What OpenWithPanel Wrote** lists every place it writes to.
+No. It collects no data, connects to the internet only when you choose **Check for Updates…**, installs no background agents and doesn't stay running after you quit. **Settings › What OpenWithPanel Wrote** lists every place it writes to.
 
 **Why isn't OpenWithPanel sandboxed?**
 macOS doesn't allow sandboxed apps to change default apps. OpenWithPanel uses the hardened runtime instead.

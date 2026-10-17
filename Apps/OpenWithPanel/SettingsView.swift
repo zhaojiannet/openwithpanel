@@ -188,7 +188,7 @@ struct FootprintSettings: View {
         }
       } footer: {
         Text(
-          "OpenWithPanel writes nothing else: no background process, no login item, no network access."
+          "OpenWithPanel writes nothing else: no background process, no login item. It connects to the internet only when you choose Check for Updates."
         )
       }
       Section {

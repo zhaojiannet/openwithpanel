@@ -15,6 +15,7 @@ struct OpenWithPanelApp: App {
     .commands {
       CommandGroup(replacing: .appInfo) {
         Button("About OpenWithPanel") { AboutPanel.show() }
+        Button("Check for Updates…") { Task { await UpdateChecker.check() } }
       }
     }
 

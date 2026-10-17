@@ -88,7 +88,7 @@ Erfordert macOS 26 Tahoe oder neuer.
 
 Es gibt kein Installationsprogramm, und es wird kein Administratorpasswort benötigt.
 
-**Aktualisieren:** Lade das neue DMG herunter und ziehe OpenWithPanel erneut in „Programme“, um die alte Version zu ersetzen. Deine Einstellungen, Regeln und Schnappschüsse bleiben erhalten.
+**Aktualisieren:** Lade das neue DMG herunter und ziehe OpenWithPanel erneut in „Programme“, um die alte Version zu ersetzen. Deine Einstellungen, Regeln und Schnappschüsse bleiben erhalten. Ob es eine neuere Version gibt, erfährst du unter **OpenWithPanel › Nach Updates suchen …**.
 
 **Deinstallieren:** siehe [Deinstallieren](#deinstallieren).
 
@@ -239,7 +239,7 @@ Listet jede Stelle auf, die OpenWithPanel auf deinem Mac ändert oder beschreibt
 - **Regeln und Schnappschüsse:** `~/Library/Application Support/net.zhaojian.openwithpanel/`;
 - **„Öffnen mit“-Einstellungen einzelner Dateien:** nur vorhanden, wenn du Ordnerregeln verwendet hast.
 
-OpenWithPanel läuft nicht im Hintergrund, hat kein Anmeldeobjekt, baut keine Netzwerkverbindungen auf und sammelt keine Daten.
+OpenWithPanel läuft nicht im Hintergrund, hat kein Anmeldeobjekt und sammelt keine Daten. Mit dem Internet verbindet es sich nur, wenn du **Nach Updates suchen …** wählst, um die neueste Versionsnummer von GitHub abzurufen.
 
 ### Deinstallieren
 
@@ -302,7 +302,7 @@ Wähle den Editor für die Gruppe **Code** oder für einzelne Formate und klicke
 Ja. OpenWithPanel zeichnet beim ersten Start die ursprünglichen Zuordnungen auf und überschreibt diese Aufzeichnung nie. **Anfangszustand wiederherstellen** richtet jeden geänderten Typ wieder auf seine ursprüngliche App.
 
 **Sammelt OpenWithPanel Daten oder läuft es im Hintergrund?**
-Nein. Es baut keine Netzwerkverbindungen auf, sammelt keine Daten, installiert keine Hintergrundagenten und läuft nach dem Beenden nicht weiter. **Einstellungen › Was OpenWithPanel geschrieben hat** listet jede Stelle auf, an die es schreibt.
+Nein. Es sammelt keine Daten, verbindet sich nur bei **Nach Updates suchen …** mit dem Internet, installiert keine Hintergrundagenten und läuft nach dem Beenden nicht weiter. **Einstellungen › Was OpenWithPanel geschrieben hat** listet jede Stelle auf, an die es schreibt.
 
 **Warum läuft OpenWithPanel nicht in einer Sandbox?**
 macOS erlaubt Apps in einer Sandbox nicht, Standard-Apps zu ändern. OpenWithPanel verwendet stattdessen die gehärtete Laufzeitumgebung (Hardened Runtime).

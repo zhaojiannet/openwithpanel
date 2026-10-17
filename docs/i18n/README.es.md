@@ -88,7 +88,7 @@ Requiere macOS 26 Tahoe o posterior.
 
 No hay instalador y no hace falta contraseña de administrador.
 
-**Actualizar:** descarga el nuevo DMG y vuelve a arrastrar OpenWithPanel a Aplicaciones, sustituyendo la copia antigua. Tus ajustes, reglas e instantáneas se conservan.
+**Actualizar:** descarga el nuevo DMG y vuelve a arrastrar OpenWithPanel a Aplicaciones, sustituyendo la copia antigua. Tus ajustes, reglas e instantáneas se conservan. Para saber si hay una versión más reciente, elige **OpenWithPanel › Buscar actualizaciones…**.
 
 **Desinstalar:** consulta [Desinstalación](#desinstalación).
 
@@ -239,7 +239,7 @@ Muestra cada lugar que OpenWithPanel cambia o en el que escribe en tu Mac, cada 
 - **Reglas e instantáneas:** `~/Library/Application Support/net.zhaojian.openwithpanel/`;
 - **Ajustes «Abrir con» por archivo:** solo existen si has usado reglas de carpeta.
 
-OpenWithPanel no se ejecuta en segundo plano, no tiene ítem de inicio, no establece conexiones de red y no recopila datos.
+OpenWithPanel no se ejecuta en segundo plano, no tiene ítem de inicio y no recopila datos. Solo se conecta a internet cuando eliges **Buscar actualizaciones…**, para leer el número de la última versión en GitHub.
 
 ### Desinstalación
 
@@ -302,7 +302,7 @@ Elige el editor para el grupo **Código**, o para formatos concretos, y pulsa **
 Sí. OpenWithPanel registra las asociaciones originales la primera vez que se ejecuta y nunca sobrescribe ese registro. **Restaurar estado inicial** hace que cada tipo cambiado vuelva a apuntar a su app original.
 
 **¿OpenWithPanel recopila datos o se ejecuta en segundo plano?**
-No. No establece conexiones de red, no recopila datos, no instala agentes en segundo plano y no sigue en ejecución después de que lo cierres. **Ajustes › Lo que ha escrito OpenWithPanel** muestra cada lugar en el que escribe.
+No. No recopila datos, solo se conecta a internet cuando eliges **Buscar actualizaciones…**, no instala agentes en segundo plano y no sigue en ejecución después de que lo cierres. **Ajustes › Lo que ha escrito OpenWithPanel** muestra cada lugar en el que escribe.
 
 **¿Por qué OpenWithPanel no usa el sandbox?**
 macOS no permite que las apps en sandbox cambien las apps predeterminadas. En su lugar, OpenWithPanel usa el hardened runtime.
