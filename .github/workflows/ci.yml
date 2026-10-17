@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: xcode-27
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Lint
+        run: swift format lint --strict --recursive OpenWithPanelKit Apps
+
+      - name: Test package
+        run: swift test --package-path OpenWithPanelKit
+
+      - name: Build app
+        run: xcodebuild -project OpenWithPanel.xcodeproj -scheme OpenWithPanel -configuration Release build

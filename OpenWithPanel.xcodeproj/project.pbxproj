@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D00000000000000000000041 /* OpenWithPanelCore in Frameworks */ = {isa = PBXBuildFile; productRef = D00000000000000000000031 /* OpenWithPanelCore */; };
+		D00000000000000000000042 /* OpenWithPanelCore in Frameworks */ = {isa = PBXBuildFile; productRef = D00000000000000000000032 /* OpenWithPanelCore */; };
+		D00000000000000000000043 /* OpenWithPanelPlatform in Frameworks */ = {isa = PBXBuildFile; productRef = D00000000000000000000033 /* OpenWithPanelPlatform */; };
+		D00000000000000000000045 /* OpenWithPanelPlatform in Frameworks */ = {isa = PBXBuildFile; productRef = D00000000000000000000034 /* OpenWithPanelPlatform */; };
+		D00000000000000000000044 /* OpenWithPanel Helper.app in Embed Helpers */ = {isa = PBXBuildFile; fileRef = D00000000000000000000021 /* OpenWithPanel Helper.app */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D00000000000000000000301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D00000000000000000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D00000000000000000000200;
+			remoteInfo = Helper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D00000000000000000000104 /* Embed Helpers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Helpers;
+			dstSubfolderSpec = 1;
+			files = (
+				D00000000000000000000044 /* OpenWithPanel Helper.app in Embed Helpers */,
+			);
+			name = "Embed Helpers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D00000000000000000000020 /* OpenWithPanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenWithPanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00000000000000000000021 /* OpenWithPanel Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenWithPanel Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D00000000000000000000010 /* OpenWithPanel */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			name = OpenWithPanel;
+			path = Apps/OpenWithPanel;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000011 /* Helper */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			name = Helper;
+			path = Apps/Helper/Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D00000000000000000000102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00000000000000000000041 /* OpenWithPanelCore in Frameworks */,
+				D00000000000000000000045 /* OpenWithPanelPlatform in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00000000000000000000202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00000000000000000000042 /* OpenWithPanelCore in Frameworks */,
+				D00000000000000000000043 /* OpenWithPanelPlatform in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D00000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				D00000000000000000000010 /* OpenWithPanel */,
+				D00000000000000000000011 /* Helper */,
+				D00000000000000000000002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D00000000000000000000002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D00000000000000000000020 /* OpenWithPanel.app */,
+				D00000000000000000000021 /* OpenWithPanel Helper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D00000000000000000000100 /* OpenWithPanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D00000000000000000000410 /* Build configuration list for PBXNativeTarget "OpenWithPanel" */;
+			buildPhases = (
+				D00000000000000000000101 /* Sources */,
+				D00000000000000000000102 /* Frameworks */,
+				D00000000000000000000103 /* Resources */,
+				D00000000000000000000104 /* Embed Helpers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D00000000000000000000300 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D00000000000000000000010 /* OpenWithPanel */,
+			);
+			name = OpenWithPanel;
+			packageProductDependencies = (
+				D00000000000000000000031 /* OpenWithPanelCore */,
+				D00000000000000000000034 /* OpenWithPanelPlatform */,
+			);
+			productName = OpenWithPanel;
+			productReference = D00000000000000000000020 /* OpenWithPanel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D00000000000000000000200 /* Helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D00000000000000000000420 /* Build configuration list for PBXNativeTarget "Helper" */;
+			buildPhases = (
+				D00000000000000000000201 /* Sources */,
+				D00000000000000000000202 /* Frameworks */,
+				D00000000000000000000203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D00000000000000000000011 /* Helper */,
+			);
+			name = Helper;
+			packageProductDependencies = (
+				D00000000000000000000032 /* OpenWithPanelCore */,
+				D00000000000000000000033 /* OpenWithPanelPlatform */,
+			);
+			productName = Helper;
+			productReference = D00000000000000000000021 /* OpenWithPanel Helper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D00000000000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					D00000000000000000000100 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					D00000000000000000000200 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+				};
+			};
+			buildConfigurationList = D00000000000000000000400 /* Build configuration list for PBXProject "OpenWithPanel" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				"zh-Hant",
+				ja,
+				ko,
+				de,
+				fr,
+				es,
+				pt,
+				id,
+				th,
+				vi,
+				ar,
+				ru,
+				hi,
+			);
+			mainGroup = D00000000000000000000001;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D00000000000000000000030 /* XCLocalSwiftPackageReference "OpenWithPanelKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D00000000000000000000002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D00000000000000000000100 /* OpenWithPanel */,
+				D00000000000000000000200 /* Helper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D00000000000000000000103 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00000000000000000000203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D00000000000000000000101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00000000000000000000201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D00000000000000000000300 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D00000000000000000000200 /* Helper */;
+			targetProxy = D00000000000000000000301 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D00000000000000000000401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		D00000000000000000000402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		D00000000000000000000411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = OpenWithPanel;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 zhaoJian · MIT License";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.zhaojian.openwithpanel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D00000000000000000000412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = OpenWithPanel;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 zhaoJian · MIT License";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.zhaojian.openwithpanel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D00000000000000000000421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Apps/Helper/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.zhaojian.openwithpanel.helper;
+				PRODUCT_NAME = "OpenWithPanel Helper";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D00000000000000000000422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Apps/Helper/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.zhaojian.openwithpanel.helper;
+				PRODUCT_NAME = "OpenWithPanel Helper";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D00000000000000000000400 /* Build configuration list for PBXProject "OpenWithPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00000000000000000000401 /* Debug */,
+				D00000000000000000000402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D00000000000000000000410 /* Build configuration list for PBXNativeTarget "OpenWithPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00000000000000000000411 /* Debug */,
+				D00000000000000000000412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D00000000000000000000420 /* Build configuration list for PBXNativeTarget "Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00000000000000000000421 /* Debug */,
+				D00000000000000000000422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		D00000000000000000000030 /* XCLocalSwiftPackageReference "OpenWithPanelKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = OpenWithPanelKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D00000000000000000000031 /* OpenWithPanelCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OpenWithPanelCore;
+		};
+		D00000000000000000000032 /* OpenWithPanelCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OpenWithPanelCore;
+		};
+		D00000000000000000000033 /* OpenWithPanelPlatform */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OpenWithPanelPlatform;
+		};
+		D00000000000000000000034 /* OpenWithPanelPlatform */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OpenWithPanelPlatform;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D00000000000000000000000 /* Project object */;
+}

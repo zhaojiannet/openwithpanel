@@ -1,0 +1,112 @@
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Version tag, e.g. v0.1.0
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: xcode-27
+    # 签名证书和公证密钥只放在 release 环境里：环境限定只有 v* 标签能用，并可要求维护者批准，
+    # 别的分支就算手动触发也拿不到
+    environment: release
+    env:
+      TAG: ${{ inputs.tag || github.ref_name }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      # 手动触发时标签是人填的，只接受 v1.2.3 这样的格式
+      - name: Check tag format
+        run: |
+          if [[ ! "$TAG" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            echo "::error::tag must look like v1.2.3"
+            exit 1
+          fi
+
+      # 六个签名密钥要么全配、要么全不配：全不配时出临时签名的包，用户第一次打开要手动放行；
+      # 只配一部分多半是填漏了，直接失败，免得把本该签名的版本发成未签名的
+      - name: Check signing secrets
+        id: signing
+        env:
+          DEVELOPER_ID_P12_BASE64: ${{ secrets.DEVELOPER_ID_P12_BASE64 }}
+          DEVELOPER_ID_P12_PASSWORD: ${{ secrets.DEVELOPER_ID_P12_PASSWORD }}
+          DEVELOPER_ID: ${{ secrets.DEVELOPER_ID }}
+          NOTARY_KEY_BASE64: ${{ secrets.NOTARY_KEY_BASE64 }}
+          NOTARY_KEY_ID: ${{ secrets.NOTARY_KEY_ID }}
+          NOTARY_ISSUER_ID: ${{ secrets.NOTARY_ISSUER_ID }}
+        run: |
+          set_count=0
+          for name in DEVELOPER_ID_P12_BASE64 DEVELOPER_ID_P12_PASSWORD DEVELOPER_ID \
+            NOTARY_KEY_BASE64 NOTARY_KEY_ID NOTARY_ISSUER_ID; do
+            [ -n "${!name}" ] && set_count=$((set_count + 1))
+          done
+          case $set_count in
+            6) echo "signed=true" >> "$GITHUB_OUTPUT" ;;
+            0) echo "signed=false" >> "$GITHUB_OUTPUT"
+               echo "::warning::no signing secrets, building an ad-hoc signed release" ;;
+            *) echo "::error::only $set_count of 6 signing secrets are set"
+               exit 1 ;;
+          esac
+
+      - name: Test package
+        run: swift test --package-path OpenWithPanelKit
+
+      - name: Install certificate and notary key
+        if: steps.signing.outputs.signed == 'true'
+        env:
+          DEVELOPER_ID_P12_BASE64: ${{ secrets.DEVELOPER_ID_P12_BASE64 }}
+          DEVELOPER_ID_P12_PASSWORD: ${{ secrets.DEVELOPER_ID_P12_PASSWORD }}
+          NOTARY_KEY_BASE64: ${{ secrets.NOTARY_KEY_BASE64 }}
+          NOTARY_KEY_ID: ${{ secrets.NOTARY_KEY_ID }}
+          NOTARY_ISSUER_ID: ${{ secrets.NOTARY_ISSUER_ID }}
+        run: |
+          keychain=$RUNNER_TEMP/signing.keychain-db
+          password=$(uuidgen)
+          echo -n "$DEVELOPER_ID_P12_BASE64" | base64 --decode -o "$RUNNER_TEMP/developer-id.p12"
+          echo -n "$NOTARY_KEY_BASE64" | base64 --decode -o "$RUNNER_TEMP/notary.p8"
+
+          security create-keychain -p "$password" "$keychain"
+          security set-keychain-settings -lut 21600 "$keychain"
+          security unlock-keychain -p "$password" "$keychain"
+          security import "$RUNNER_TEMP/developer-id.p12" -P "$DEVELOPER_ID_P12_PASSWORD" \
+            -A -t cert -f pkcs12 -k "$keychain"
+          security set-key-partition-list -S apple-tool:,apple: -k "$password" "$keychain"
+          security list-keychain -d user -s "$keychain"
+
+          xcrun notarytool store-credentials openwithpanel-notary --key "$RUNNER_TEMP/notary.p8" \
+            --key-id "$NOTARY_KEY_ID" --issuer "$NOTARY_ISSUER_ID" --keychain "$keychain"
+          rm "$RUNNER_TEMP/developer-id.p12" "$RUNNER_TEMP/notary.p8"
+          echo "NOTARY_KEYCHAIN=$keychain" >> "$GITHUB_ENV"
+
+      - name: Build and package
+        env:
+          DEVELOPER_ID: ${{ secrets.DEVELOPER_ID }}
+          NOTARY_PROFILE: ${{ steps.signing.outputs.signed == 'true' && 'openwithpanel-notary' || '' }}
+        run: scripts/package.sh
+
+      # 工程里的 MARKETING_VERSION 必须和标签一致，否则下载页和 App 里的版本号对不上
+      - name: Check version matches tag
+        run: test -f ".build/dist/OpenWithPanel-${TAG#v}.dmg"
+
+      # 建成草稿：维护者在网页上看过才发布，出错的包不会直接到用户手里
+      - name: Create draft release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SIGNED: ${{ steps.signing.outputs.signed }}
+        run: |
+          notes=""
+          if [ "$SIGNED" != "true" ]; then
+            notes=$(cat "packaging/First Launch.txt")
+          fi
+          gh release create "$TAG" ".build/dist/OpenWithPanel-${TAG#v}.dmg" .build/dist/openwithpanel.rb \
+            --draft --title "OpenWithPanel ${TAG#v}" --notes "$notes" --generate-notes

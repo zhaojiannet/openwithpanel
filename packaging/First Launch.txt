@@ -1,0 +1,299 @@
+Opening OpenWithPanel for the first time
+========================================
+
+This copy of OpenWithPanel is not notarized by Apple, so macOS blocks it
+the first time you open it. To allow it once:
+
+1. Drag OpenWithPanel into Applications, then double-click it.
+   macOS says it could not verify OpenWithPanel. Click "Done".
+   Do NOT click the blue "Move to Trash" button.
+2. Open Apple menu > System Settings > Privacy & Security.
+   Scroll down to Security and click "Open Anyway" next to OpenWithPanel.
+   The button appears for about an hour after step 1.
+3. Enter your login password or use Touch ID. In the dialog that follows,
+   click "Open Anyway" again.
+
+After this, OpenWithPanel opens normally every time.
+Source code and help: https://github.com/zhaojiannet/openwithpanel
+
+
+首次打开 OpenWithPanel
+======================
+
+这份 OpenWithPanel 没有经过苹果公证，第一次打开时 macOS 会拦截。
+放行一次即可：
+
+1. 把 OpenWithPanel 拖进「应用程序」，然后双击打开。
+   系统提示无法检查 OpenWithPanel 是否包含恶意软件，点「完成」。
+   不要点蓝色的「移到废纸篓」。
+2. 打开苹果菜单 > 系统设置 > 隐私与安全，
+   往下滚到「安全性」，在 OpenWithPanel 旁边点「仍要打开」。
+   这个按钮在第 1 步之后大约一小时内有效。
+3. 输入登录密码或用触控ID确认，在接着出现的提示里再点一次「仍要打开」。
+
+之后每次都能正常打开。
+源代码和帮助：https://github.com/zhaojiannet/openwithpanel
+
+
+首次打開 OpenWithPanel
+======================
+
+這份 OpenWithPanel 沒有經過 Apple 公證，第一次打開時 macOS 會擋下它。
+允許一次即可：
+
+1. 把 OpenWithPanel 拖進「應用程式」，然後按兩下打開。
+   系統提示無法驗證 OpenWithPanel，按一下「完成」。
+   不要按藍色的「丟到垃圾桶」。
+2. 打開蘋果選單 > 系統設定 > 隱私權與安全性，
+   往下捲動到「安全性」，在 OpenWithPanel 旁邊按一下「強制打開」。
+   這個按鈕在第 1 步之後大約一小時內有效。
+3. 輸入登入密碼或使用 Touch ID 確認，
+   在接著出現的對話框裡再按一次「強制打開」。
+
+之後每次都能正常打開。
+原始碼與說明：https://github.com/zhaojiannet/openwithpanel
+
+
+OpenWithPanel を初めて開くとき
+==============================
+
+この OpenWithPanel は Apple の公証を受けていないため、初めて開くときに
+macOS がブロックします。一度だけ許可するには：
+
+1. OpenWithPanel を「アプリケーション」にドラッグし、
+   ダブルクリックします。
+   OpenWithPanel を検証できないと表示されたら「完了」をクリックします。
+   青い「ゴミ箱に入れる」ボタンはクリックしないでください。
+2. アップルメニュー > システム設定 > プライバシーとセキュリティ
+   を開きます。「セキュリティ」までスクロールし、OpenWithPanel の横の
+   「このまま開く」をクリックします。
+   このボタンは手順 1 のあと約 1 時間表示されます。
+3. ログインパスワードを入力するか、Touch ID を使います。続いて
+   表示されるダイアログで、もう一度「このまま開く」をクリックします。
+
+以降は毎回通常どおり開けます。
+ソースコードとヘルプ：https://github.com/zhaojiannet/openwithpanel
+
+
+OpenWithPanel 처음 열기
+=======================
+
+이 OpenWithPanel은 Apple의 공증을 받지 않았기 때문에 처음 열 때
+macOS가 차단합니다. 한 번만 허용하려면:
+
+1. OpenWithPanel을 '응용 프로그램'으로 드래그한 다음 이중 클릭합니다.
+   OpenWithPanel을 확인할 수 없다는 메시지가 나타나면 '완료'를
+   클릭합니다. 파란색 '휴지통으로 이동' 버튼은 클릭하지 마십시오.
+2. Apple 메뉴 > 시스템 설정 > 개인정보 보호 및 보안을 엽니다.
+   '보안'까지 스크롤한 다음 OpenWithPanel 옆의 '그래도 열기'를
+   클릭합니다. 이 버튼은 1단계 이후 약 1시간 동안 나타납니다.
+3. 로그인 암호를 입력하거나 Touch ID를 사용합니다. 이어서 나타나는
+   대화상자에서 '그래도 열기'를 다시 클릭합니다.
+
+이후에는 OpenWithPanel이 매번 정상적으로 열립니다.
+소스 코드 및 도움말: https://github.com/zhaojiannet/openwithpanel
+
+
+OpenWithPanel zum ersten Mal öffnen
+===================================
+
+Diese Kopie von OpenWithPanel ist nicht von Apple notarisiert, deshalb
+blockiert macOS sie beim ersten Öffnen. So erlaubst du sie einmalig:
+
+1. Ziehe OpenWithPanel in „Programme“ und doppelklicke dann darauf.
+   macOS meldet, dass OpenWithPanel nicht überprüft werden konnte.
+   Klicke auf „Fertig“.
+   Klicke NICHT auf die blaue Taste „In den Papierkorb legen“.
+2. Öffne Apple-Menü > Systemeinstellungen > Datenschutz & Sicherheit.
+   Scrolle nach unten zu „Sicherheit“ und klicke neben OpenWithPanel auf
+   „Dennoch öffnen“. Die Taste ist nach Schritt 1 etwa eine Stunde
+   lang dort.
+3. Gib dein Anmeldepasswort ein oder verwende Touch ID. Klicke im
+   folgenden Dialog erneut auf „Dennoch öffnen“.
+
+Danach öffnet sich OpenWithPanel jedes Mal ganz normal.
+Quellcode und Hilfe: https://github.com/zhaojiannet/openwithpanel
+
+
+Ouvrir OpenWithPanel pour la première fois
+==========================================
+
+Cette copie d’OpenWithPanel n’est pas notariée par Apple, donc macOS la
+bloque la première fois que vous l’ouvrez. Pour l’autoriser une fois :
+
+1. Faites glisser OpenWithPanel dans Applications, puis double-cliquez
+   dessus. macOS indique qu’il n’a pas pu vérifier OpenWithPanel.
+   Cliquez sur « Terminé ».
+   Ne cliquez PAS sur le bouton bleu « Placer dans la corbeille ».
+2. Ouvrez le menu Pomme > Réglages Système > Confidentialité et
+   sécurité. Faites défiler jusqu’à Sécurité et cliquez sur
+   « Ouvrir quand même » à côté d’OpenWithPanel.
+   Le bouton reste disponible environ une heure après l’étape 1.
+3. Saisissez votre mot de passe de session ou utilisez Touch ID. Dans
+   la fenêtre qui suit, cliquez à nouveau sur « Ouvrir quand même ».
+
+Ensuite, OpenWithPanel s’ouvre normalement à chaque fois.
+Code source et aide : https://github.com/zhaojiannet/openwithpanel
+
+
+Abrir OpenWithPanel por primera vez
+===================================
+
+Esta copia de OpenWithPanel no está notarizada por Apple, así que macOS
+la bloquea la primera vez que la abres. Para permitirla una vez:
+
+1. Arrastra OpenWithPanel a Aplicaciones y haz doble clic en él.
+   macOS indica que no ha podido verificar OpenWithPanel.
+   Haz clic en "Aceptar".
+   NO hagas clic en el botón azul "Trasladar a la Papelera".
+2. Abre el menú Apple > Ajustes del Sistema > Privacidad y seguridad.
+   Desplázate hasta Seguridad y haz clic en "Abrir igualmente" junto
+   a OpenWithPanel. El botón aparece durante aproximadamente una hora
+   después del paso 1.
+3. Introduce tu contraseña de inicio de sesión o usa Touch ID. En el
+   cuadro de diálogo siguiente, vuelve a hacer clic en
+   "Abrir igualmente".
+
+A partir de entonces, OpenWithPanel se abrirá con normalidad.
+Código fuente y ayuda: https://github.com/zhaojiannet/openwithpanel
+
+
+Abrir o OpenWithPanel pela primeira vez
+=======================================
+
+Esta cópia do OpenWithPanel não foi notarizada pela Apple, então o macOS
+a bloqueia na primeira vez que você a abre. Para permitir uma vez:
+
+1. Arraste o OpenWithPanel para Aplicativos e clique duas vezes nele.
+   O macOS informa que não pôde verificar o OpenWithPanel.
+   Clique em "OK".
+   NÃO clique no botão azul "Mover para o Lixo".
+2. Abra o menu Apple > Ajustes > Privacidade e Segurança.
+   Role para baixo até Segurança e clique em "Abrir Mesmo Assim" ao
+   lado do OpenWithPanel. O botão fica disponível por cerca de uma hora
+   após o passo 1.
+3. Digite sua senha de início de sessão ou use o Touch ID. Na caixa de
+   diálogo seguinte, clique em "Abrir Mesmo Assim" novamente.
+
+Depois disso, o OpenWithPanel abre normalmente todas as vezes.
+Código-fonte e ajuda: https://github.com/zhaojiannet/openwithpanel
+
+
+Membuka OpenWithPanel untuk pertama kali
+========================================
+
+Salinan OpenWithPanel ini tidak dinotarisasi oleh Apple, sehingga macOS
+memblokirnya saat pertama kali Anda membukanya. Untuk mengizinkannya
+sekali:
+
+1. Seret OpenWithPanel ke Aplikasi, lalu klik dua kali.
+   macOS menyatakan tidak dapat memverifikasi OpenWithPanel.
+   Klik "Selesai".
+   JANGAN klik tombol biru "Pindahkan ke Tong Sampah".
+2. Buka menu Apple > Pengaturan Sistem > Privasi & Keamanan.
+   Gulir ke bawah ke Keamanan, lalu klik "Tetap Buka" di samping
+   OpenWithPanel. Tombol ini ada selama sekitar satu jam setelah
+   langkah 1.
+3. Masukkan kata sandi login Anda atau gunakan Touch ID. Di dialog
+   berikutnya, klik "Tetap Buka" lagi.
+
+Setelah ini, OpenWithPanel selalu terbuka seperti biasa.
+Kode sumber dan bantuan: https://github.com/zhaojiannet/openwithpanel
+
+
+เปิด OpenWithPanel เป็นครั้งแรก
+===========================
+
+OpenWithPanel ชุดนี้ไม่ได้รับการรับรอง (notarize) จาก Apple macOS
+จึงบล็อกไว้เมื่อคุณเปิดครั้งแรก หากต้องการอนุญาตหนึ่งครั้ง:
+
+1. ลาก OpenWithPanel ไปไว้ใน "แอปพลิเคชัน" แล้วคลิกสองครั้ง
+   macOS จะแจ้งว่าไม่สามารถตรวจสอบ OpenWithPanel ได้ ให้คลิก "เสร็จสิ้น"
+   อย่าคลิกปุ่ม "ย้ายไปยังถังขยะ" สีน้ำเงิน
+2. เปิดเมนู Apple > การตั้งค่าระบบ > ความเป็นส่วนตัวและความปลอดภัย
+   เลื่อนลงไปที่ส่วนความปลอดภัย แล้วคลิก "ยืนยันจะเปิด" ข้าง OpenWithPanel
+   ปุ่มนี้จะแสดงอยู่ประมาณหนึ่งชั่วโมงหลังจากขั้นตอนที่ 1
+3. ป้อนรหัสผ่านสำหรับเข้าสู่ระบบหรือใช้ Touch ID
+   ในหน้าต่างที่แสดงขึ้นถัดมา ให้คลิก "ยืนยันจะเปิด" อีกครั้ง
+
+หลังจากนี้ OpenWithPanel จะเปิดได้ตามปกติทุกครั้ง
+ซอร์สโค้ดและความช่วยเหลือ: https://github.com/zhaojiannet/openwithpanel
+
+
+Mở OpenWithPanel lần đầu
+========================
+
+Bản OpenWithPanel này chưa được Apple công chứng, nên macOS sẽ chặn ứng
+dụng trong lần mở đầu tiên. Để cho phép một lần:
+
+1. Kéo OpenWithPanel vào Ứng dụng, rồi bấm đúp vào OpenWithPanel.
+   macOS báo không thể xác minh OpenWithPanel. Bấm "Xong".
+   KHÔNG bấm nút "Chuyển vào Thùng rác" màu xanh.
+2. Mở menu Apple > Cài đặt hệ thống > Quyền riêng tư & Bảo mật.
+   Cuộn xuống phần Bảo mật và bấm "Vẫn mở" bên cạnh OpenWithPanel.
+   Nút này xuất hiện trong khoảng một giờ sau bước 1.
+3. Nhập mật khẩu đăng nhập hoặc dùng Touch ID. Trong hộp thoại tiếp
+   theo, bấm "Vẫn mở" lần nữa.
+
+Sau đó, OpenWithPanel sẽ mở bình thường mỗi lần.
+Mã nguồn và trợ giúp: https://github.com/zhaojiannet/openwithpanel
+
+
+فتح OpenWithPanel لأول مرة
+==========================
+
+هذه النسخة من OpenWithPanel غير موثَّقة من Apple، لذلك يحظرها macOS
+في أول مرة تفتحها فيها. للسماح بها مرة واحدة:
+
+1. اسحب OpenWithPanel إلى التطبيقات، ثم انقر عليه نقرًا مزدوجًا.
+   يقول macOS إنه تعذّر التحقق من OpenWithPanel. انقر على "تم".
+   لا تنقر على الزر الأزرق "نقل إلى سلة المهملات".
+2. افتح قائمة Apple > إعدادات النظام > الخصوصية والأمن.
+   مرّر لأسفل إلى الأمن وانقر على "فتح على أية حال" بجانب OpenWithPanel.
+   يظهر الزر لمدة ساعة تقريبًا بعد الخطوة 1.
+3. أدخل كلمة سر تسجيل الدخول أو استخدم بصمة الإصبع. في مربع الحوار
+   التالي، انقر على "فتح على أية حال" مرة أخرى.
+
+بعد ذلك، يُفتح OpenWithPanel بشكل طبيعي في كل مرة.
+الشيفرة المصدرية والمساعدة: https://github.com/zhaojiannet/openwithpanel
+
+
+Первый запуск OpenWithPanel
+===========================
+
+Эта копия OpenWithPanel не заверена Apple, поэтому macOS блокирует её
+при первом открытии. Чтобы разрешить её один раз:
+
+1. Перетащите OpenWithPanel в «Программы», затем дважды щёлкните его.
+   macOS сообщит, что не удалось проверить OpenWithPanel.
+   Нажмите «Готово».
+   НЕ нажимайте синюю кнопку «Переместить в Корзину».
+2. Откройте меню Apple > Системные настройки > Конфиденциальность
+   и безопасность. Прокрутите вниз до раздела «Безопасность» и
+   нажмите «Все равно открыть» рядом с OpenWithPanel.
+   Кнопка доступна примерно в течение часа после шага 1.
+3. Введите пароль для входа или используйте Touch ID. В следующем
+   окне снова нажмите «Все равно открыть».
+
+После этого OpenWithPanel будет каждый раз открываться как обычно.
+Исходный код и справка: https://github.com/zhaojiannet/openwithpanel
+
+
+OpenWithPanel को पहली बार खोलना
+===============================
+
+OpenWithPanel की यह कॉपी Apple द्वारा नोटराइज़ नहीं की गई है, इसलिए पहली
+बार खोलने पर macOS इसे रोक देता है। इसे एक बार अनुमति देने के लिए:
+
+1. OpenWithPanel को "ऐप्लिकेशन" में ड्रैग करें, फिर उस पर डबल-क्लिक करें।
+   macOS बताएगा कि वह OpenWithPanel को सत्यापित नहीं कर सका।
+   "पूर्ण" पर क्लिक करें।
+   नीले "रद्दी में मूव करें" बटन पर क्लिक न करें।
+2. Apple मेनू > सिस्टम सेटिंग > गोपनीयता और सुरक्षा खोलें।
+   नीचे "सुरक्षा" तक स्क्रॉल करें और OpenWithPanel के पास "फिर भी खोलें"
+   पर क्लिक करें। यह बटन चरण 1 के बाद लगभग एक घंटे तक दिखता है।
+3. अपना लॉगिन पासवर्ड दर्ज करें या Touch ID का उपयोग करें। इसके बाद
+   आने वाले डायलॉग में फिर से "फिर भी खोलें" पर क्लिक करें।
+
+इसके बाद OpenWithPanel हर बार सामान्य रूप से खुलेगा।
+सोर्स कोड और सहायता: https://github.com/zhaojiannet/openwithpanel
